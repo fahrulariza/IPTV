@@ -23,6 +23,7 @@ https://jmp2.uk/SamsungTVPlus/CHBD800001D0.m3u8
 #EXTVLCOPT:file-caching=1000
 https://op-group1-swiftservehd-1.dens.tv/h/h211/02.m3u8
 https://av-live-cdn.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd
+https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(bd164a95-722d-40db-a596-687c8123f197)/manifest.mpd
 
 #EXTINF:-1 tvg-country="ID" group-title="BERITA" tvg-name="TVKU" tvg-logo="https://cc.dinus.ac.id/assets/uploads/penyedia/08095-tvkusmg.png",TVKU
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -89,7 +90,7 @@ https://av-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
 #EXTINF:0,SEA Today
 https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
 
-#EXTINF:60 tvg-country="ID" group-title="BERITA" tvg-name="Euronews Live" tvg-logo="https://play-lh.googleusercontent.com/SQqmj5mqaxc7BLMd7bfY4Oj1rCRzIV2x4R1Dhx9e_0UMzF4CtDYjhLPBTRw7_-3Zd8I=w600-h300-pc0xffffff-pd",Euronews Live
+#EXTINF:60 tvg-country="ID" group-title="BERITA" tvg-name="Euronews Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png",Euronews Live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
@@ -97,20 +98,26 @@ https://jmp2.uk/SamsungTVPlus/ATBA1000004XC.m3u8
 
 ############################################ LOKAL ################################################
 
-#EXTINF:1 tvg-country="ID" group-title="LOKAL" tvg-name="NET" tvg-logo="https://img.jakpost.net/c/2019/08/10/2019_08_10_77845_1565422345._large.jpg",NET
-https://av-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
+#EXTINF:1 tvg-country="ID" group-title="LOKAL" tvg-name="NET TV" tvg-logo="https://img.jakpost.net/c/2019/08/10/2019_08_10_77845_1565422345._large.jpg",NET TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
+https://av-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
 
 #EXTINF:2 tvg-country="ID" group-title="LOKAL" tvg-name="TRANSTV" tvg-logo="https://i.pinimg.com/originals/bf/8f/3c/bf8f3cd07a56f716d5a550e27228ce05.webp",TRANSTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://video.detik.com/transtv/smil:transtv.smil/chunklist_w988572694_b744100_sleng.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/index.m3u8?checkedby:iptvcat.net
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
 #EXTINF:3 tvg-country="ID" group-title="LOKAL" tvg-name="TRANS7" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0021/6937/brand.gif?itok=PM5FNh9N",TRANS7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://video.detik.com/trans7/smil:trans7.smil/chunklist_w44437729_b744100_sleng.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
@@ -118,18 +125,18 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 #EXTINF:0,INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 http://103.166.27.2:8112/play/a016/index.m3u8
 
-#EXTINF:0,TV One
+#EXTINF:0 tvg-country="ID" group-title="LOKAL" tvg-name="TV One" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0021/6937/brand.gif?itok=PM5FNh9N",TV One
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000 
 https://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
-#EXTINF:0,TVOne
 https://av-live-cdn.mncnow.id/live/eds/TVOne/sa_dash_vmx/TVOne.mpd
-#EXTINF:0,Metro TV
-https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(bd164a95-722d-40db-a596-687c8123f197)/manifest.mpd
 
-#EXTINF:28,SCTV
+#EXTINF:28 tvg-country="ID" group-title="LOKAL" tvg-name="SCTV" tvg-logo="https://www.google.co.id/url?sa=i&url=https%3A%2F%2Fwww.vinoti.com%2Fclient%2Fsctv%2F&psig=AOvVaw08i2zrNLi-i19K1akqc8s3&ust=1723970841740000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjwo-iB0vuHAxUAAAAAHQAAAAAQBA",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
@@ -139,35 +146,40 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
 #EXTINF:60 tvg-country="KR" group-title="LOKAL" tvg-name="KBS World HD" tvg-logo="https://welcon.kocca.kr/emp/cmm/getImage.do?atchFileId=FILE_2cf3e938-4417-4c83-bd82-a0093446e6de&fileSn=0", KBS World HD
-#EXTVLCOPT:network-caching=1000
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
-#EXTINF:60, KBS World HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 
-#EXTINF:28,Celestial Movies
+#EXTINF:28 tvg-country="KR" group-title="LOKAL" tvg-name="Celestial Movies" tvg-logo="https://welcon.kocca.kr/emp/cmm/getImage.do?atchFileId=FILE_2cf3e938-4417-4c83-bd82-a0093446e6de&fileSn=0",Celestial Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h212/02.m3u8
 
-#EXTINF:60,RTV
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="RTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/Rajawali_Televisi_2014_Wordmark_below.svg/revision/latest/scale-to-width-down/250?cb=20200802120950",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h10/02.m3u8
-#EXTINF:0,RTV
 https://av-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 
-#EXTINF:32,AFF u23 
+#EXTINF:32 tvg-country="Brunie" group-title="LOKAL" tvg-name="RTBGo" tvg-logo="https://rtb-images.glueapi.io/300x0/live/GoLiveNew.png",RTBGo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b2196000_sleng.m3u8
 
-#EXTINF:10,AKTV (720p)
+#EXTINF:10 tvg-country="ID" group-title="LOKAL" tvg-name="AKTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/AkTV_2017.png",AKTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://e.siar.us/live/aktv.m3u8?checkedby:iptvcat.net
 
-#EXTINF:50,Bandung TV
-http://202.150.153.254:65500/bandungtvWEBSITE.m3u8?checkedby:iptvcat.net
-
-#EXTINF:60,DigiOne (720p) [Geo-blocked]
+#EXTINF:60,DigiOne (720p)
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(d2f582be-366c-4cce-9476-1b524dc854e9)/index.m3u8?checkedby:iptvcat.net
+
 #EXTINF:60,Dunia Games TV (720p) [Not 24/7] [Geo-blocked]
 https://cdn01-telkomsel-01.akamaized.net/Content/HLS/Live/channel(6854467f-52fe-48ee-9822-00233c678709)/index.m3u8?checkedby:iptvcat.net
 
@@ -409,6 +421,9 @@ http://op-group1-swiftservesd-1.dens.tv/s/s27/02.m3u8
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8?checkedby:iptvcat.net
 
 ########################################## DAERAH ################################################
+
+#EXTINF:50,Bandung TV
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8?checkedby:iptvcat.net
 
 #EXTINF:10,Jawa Pos TV (720p) [Not 24/7]
 https://jawapostv.siar.us/jawapostv/live/playlist.m3u8?checkedby:iptvcat.net
