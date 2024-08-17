@@ -33,7 +33,6 @@ https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8?check
 
 ############################################ LOKAL ################################################
 #EXTINF:1 tvg-country="ID" group-title="LOKAL" tvg-name="NET" tvg-logo="https://img.jakpost.net/c/2019/08/10/2019_08_10_77845_1565422345._large.jpg",NET
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
 
 #EXTINF:29 tvg-country="ID" group-title="LOKAL" tvg-name="TRANSTV" tvg-logo="https://i.pinimg.com/originals/bf/8f/3c/bf8f3cd07a56f716d5a550e27228ce05.webp",TRANSTV
