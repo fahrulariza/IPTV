@@ -13,12 +13,13 @@ http://103.30.1.14:8080/hls/live.m3u8
 
 
 #EXTM3U
-#EXTINF:26,CNBC Indonesia
+#EXTINF:1,tvg-country="ID" tvg-logo="" group-title="news" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
-#EXTINF:26,BACKUP CNBC Indonesia
-http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+
 #EXTINF:36,CNN INDONESIA
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
+
+
 #EXTINF:36,TVKU
 http://103.30.1.14:8080/hls/live.m3u8
 #EXTINF:29,Radio 51 TV
