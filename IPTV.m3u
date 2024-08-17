@@ -439,42 +439,45 @@ https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 
 ########################################## ROHANI ################################################
 
-#EXTINF:12,Al-Iman TV (720p)
+#EXTINF:12 tvg-country="ENG" group-title="ROHANI",Al-Iman TV (720p)
 https://tv.aliman.id/aliman/live.m3u8?checkedby:iptvcat.net
-#EXTINF:50,Alwafa Tarim TV (Am Media) (720p)
+
+#EXTINF:50 tvg-country="ENG" group-title="ROHANI",Alwafa Tarim TV (Am Media) (720p)
 https://ammedia.siar.us/ammedia/live/playlist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:0,Mekkah Tv
+#EXTINF:0 tvg-country="ENG" group-title="ROHANI",Mekkah Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservesd-1.dens.tv/s/s28/02.m3u8
-#EXTINF:0,Madinah  Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservesd-1.dens.tv/s/s27/02.m3u8
-#EXTINF:31,TV9 NUSANTARA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w180392404.m3u8
-#EXTINF:20,MADU TV NUSANTARA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-https://v6.siar.us:443/madutv/hd720/chunks.m3u8
-#EXTINF:29,MEKAMELEEN TV (1920×1080)
-https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist.m3u8?checkedby:iptvcat.net
-#EXTINF:100,Maah TV (720p) [Not 24/7]
-https://hls.maahtv.live/hls/stream.m3u8?checkedby:iptvcat.net
-#EXTINF:12,SHARJA TV (1920×1080) - Sharjah TV
-https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:27,Sky News Arabia - SKY NEWS ARABIA (1280×720)
-https://stream.skynewsarabia.com/hls/sna.m3u8?checkedby:iptvcat.net
-#EXTINF:28,MCE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8
-#EXTINF:60,Mekkah Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://op-group1-swiftservesd-1.dens.tv/s/s28/02.m3u8
-#EXTINF:60,Madinah  Tv
+
+#EXTINF:0 tvg-country="ENG" group-title="ROHANI",Madinah  Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservesd-1.dens.tv/s/s27/02.m3u8
 
-#EXTINF:99,Dhamma TV (720p) [Not 24/7]
+#EXTINF:31 tvg-country="ENG" group-title="ROHANI",TV9 NUSANTARA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w180392404.m3u8
+
+#EXTINF:20 tvg-country="ENG" group-title="ROHANI",MADU TV NUSANTARA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://v6.siar.us:443/madutv/hd720/chunks.m3u8
+
+#EXTINF:29 tvg-country="ENG" group-title="ROHANI",MEKAMELEEN TV (1920×1080)
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist.m3u8?checkedby:iptvcat.net
+
+#EXTINF:100 tvg-country="ENG" group-title="ROHANI",Maah TV (720p) [Not 24/7]
+https://hls.maahtv.live/hls/stream.m3u8?checkedby:iptvcat.net
+
+#EXTINF:12 tvg-country="ENG" group-title="ROHANI",SHARJA TV (1920×1080) - Sharjah TV
+https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8?checkedby:iptvcat.net
+
+#EXTINF:27 tvg-country="ENG" group-title="ROHANI",Sky News Arabia - SKY NEWS ARABIA (1280×720)
+https://stream.skynewsarabia.com/hls/sna.m3u8?checkedby:iptvcat.net
+
+#EXTINF:28 tvg-country="ENG" group-title="ROHANI",MCE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h208/02.m3u8
+
+#EXTINF:99 tvg-country="ENG" group-title="ROHANI",Dhamma TV (720p) [Not 24/7]
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8?checkedby:iptvcat.net
 
 ########################################## DAERAH ################################################
