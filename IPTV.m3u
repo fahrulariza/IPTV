@@ -222,6 +222,12 @@ http://210.210.155.35/uq2663/h/h08/01.m3u8?fluxustv.m3u8
 #EXTVLCOPT:file-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_channelId=99991302
 
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="Wilder Planet" tvg-logo="https://img.netzwelt.de/dw1600_dh900_sw0_sh0_sx0_sy0_sr16x9_nu2/picture/original/2023/08/wilder-planet-379437.png", Wilder Planet
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://jmp2.uk/SamsungTVPlus/ATBA3300031VR.m3u8
+
 ########################################## kartun anak ################################################
 
 #EXTINF:60 tvg-country="ENG" group-title="KARTUN ANAK" tvg-name="Spacetoon" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png",Spacetoon
@@ -250,13 +256,24 @@ https://jmp2.uk/SamsungTVPlus/CA400003FQ.m3u8
 
 ########################################## OLAHRAGA ################################################
 
-#EXTINF:60,(ID) TVRI OLAHRAGA
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
-#EXTINF:28,TVRI Sport
+#EXTINF:60 tvg-country="ID" group-title="OLAHRAGA" tvg-name="TVRI SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/id/archive/5/58/20230801015834%21TVRI_Sport_2017.png",TVRI SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h238/02.m3u8
-#EXTINF:0,TVRI SPORT
-http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+
+#EXTINF:25, PFL MMA
+#EXTVLCOPT:network-caching=1000
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+
+#EXTINF:59,Nimbus Playout
+https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+
+#EXTINF:25,Bein Sports Xtra
+#EXTVLCOPT:network-caching=1000
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
 
 #EXTINF:0,DUBAI RACING 2 (1920×1080)
 http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/playlist.m3u8?checkedby:iptvcat.net
@@ -267,25 +284,14 @@ http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunkl
 #EXTINF:60,DUBAI SPORTS 3 (1920×1080)
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:60,Fight Sports
-#EXTVLCOPT:network-caching=1000
-http://rr1.dens.tv/h/h05/02.m3u8?chname=FIGHT_SPORTS_HD
-#EXTINF:25,Bein Sports Xtra
-#EXTVLCOPT:network-caching=1000
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
-#EXTINF:25, PFL MMA
-#EXTVLCOPT:network-caching=1000
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
 #EXTINF:25,Bein Sports Xtra
 https://bit.ly/3t7HM45
 #EXTINF:25,Glory Kickboxing
 https://bit.ly/3GCBoqY
 #EXTINF:25,Bellator MMA
 https://bit.ly/3O4uBZV
-#EXTINF:59,Nimbus Playout
-https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
-#EXTINF:60, Wilder Planet
-https://jmp2.uk/SamsungTVPlus/ATBA3300031VR.m3u8
+
 #EXTINF:54, FIFA+
 https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
