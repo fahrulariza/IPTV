@@ -66,10 +66,7 @@ http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKALSELBANJARMSN)/index.m3u8?c
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKALTENG)/index.m3u8?checkedby:iptvcat.net
 #EXTINF:120,TVRI Sumatera Barat (720p)
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8?checkedby:iptvcat.net
-#EXTINF:70,TVRI World
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.net
-#EXTINF:29,Trans TV (720p)
-https://video.detik.com/transtv/smil:transtv.smil/index.m3u8?checkedby:iptvcat.net
+
 #EXTINF:10,Wesal TV (720p) [Not 24/7]
 https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8?checkedby:iptvcat.net
 #EXTINF:10800,AE | Hawas TV - Hawas TV,HAWAS TV (1280×720)
@@ -464,19 +461,11 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c1
 #EXTINF:25, PFL MMA
 #EXTVLCOPT:network-caching=1000
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:27, TRANS 7
-#EXTVLCOPT:network-caching=1000
-https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
-#EXTINF:29, TRANS TV
-#EXTVLCOPT:network-caching=1000
-https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
 #EXTINF:90, LEGO CHANNEL
 #EXTVLCOPT:network-caching=1000
 https://dpiajq84g19x0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-otgmpzd5gkcgk-ssai-prd/mhls?appId=2&feedId=1314-v57&auth-token=1213111&version=sv8.0&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-#EXTINF:29,Trans TV Dtk
-https://video.detik.com/transtv/smil:transtv.smil/chunklist_w988572694_b744100_sleng.m3u8
-#EXTINF:26,Trans 7 Dtk
-https://video.detik.com/trans7/smil:trans7.smil/chunklist_w44437729_b744100_sleng.m3u8
+
 #EXTINF:0,TVOne
 https://av-live-cdn.mncnow.id/live/eds/TVOne/sa_dash_vmx/TVOne.mpd
 #EXTINF:0,Metro TV
