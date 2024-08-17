@@ -78,18 +78,6 @@ https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8?checkedby:iptv
 #EXTVLCOPT:file-caching=1000
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:0,TVRI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservehd-1.dens.tv/h/h237/02.m3u8
-https://av-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
-
-#EXTINF:0,MNC News
-https://av-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
-#EXTINF:0,IDX Channel
-https://av-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
-#EXTINF:0,SEA Today
-https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
-
 #EXTINF:60 tvg-country="ID" group-title="BERITA" tvg-name="Euronews Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png",Euronews Live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
@@ -101,6 +89,20 @@ https://jmp2.uk/SamsungTVPlus/ATBA1000004XC.m3u8
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+
+#EXTINF:0 tvg-country="ID" group-title="BERITA" tvg-name="TVRI",TVRI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h237/02.m3u8
+https://av-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
+
+#EXTINF:0 tvg-country="ID" group-title="BERITA" tvg-name="MNC News",MNC News
+https://av-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
+
+#EXTINF:0 tvg-country="ID" group-title="BERITA" tvg-name="IDX Channel",IDX Channel
+https://av-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
+
+#EXTINF:0 tvg-country="ID" group-title="BERITA" tvg-name="SEA Today",SEA Today
+https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
 
 ############################################ LOKAL ################################################
 
@@ -147,7 +149,7 @@ https://av-live-cdn.mncnow.id/live/eds/TVOne/sa_dash_vmx/TVOne.mpd
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
-#EXTINF:0,ANTV
+#EXTINF:0 tvg-country="ID" group-title="LOKAL" tvg-name="ANTV",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
@@ -222,18 +224,28 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_c
 
 ########################################## kartun anak ################################################
 
-#EXTINF:60 tvg-country="ID" group-title="KARTUN ANAK" tvg-name="Spacetoon" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png",Spacetoon
+#EXTINF:60 tvg-country="ENG" group-title="KARTUN ANAK" tvg-name="Spacetoon" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png",Spacetoon
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
 
-#EXTINF:39 tvg-country="ASIA" group-title="KARTUN ANAK" tvg-name="Cartoon Network Southeast Asia (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png",Cartoon Network Southeast Asia (1080p)
+#EXTINF:39 tvg-country="ASIA" group-title="KARTUN ANAK" tvg-name="Cartoon Network Southeast Asia (1080p)" tvg-logo="https://static.wikia.nocookie.net/cartoonnetwork/images/6/6f/180px-CN_logo.svg.png/revision/latest?cb=20110908182006",Cartoon Network Southeast Asia (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8?checkedby:iptvcat.net
 
-#EXTINF:90, LEGO CHANNEL
+#EXTINF:90 tvg-country="ASIA" group-title="KARTUN ANAK" tvg-name="LEGO CHANNEL" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/lego-logo-png-transparent-background.png",LEGO CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://dpiajq84g19x0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-otgmpzd5gkcgk-ssai-prd/mhls?appId=2&feedId=1314-v57&auth-token=1213111&version=sv8.0&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
 
-#EXTINF:54, Animation+
+#EXTINF:54 tvg-country="ASIA" group-title="KARTUN ANAK" tvg-name="Animation+" tvg-logo="https://amarullzcom.wordpress.com/wp-content/uploads/2024/03/animetv-logo-brand.png?w=1200",Animation+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://jmp2.uk/SamsungTVPlus/CA400003FQ.m3u8
 
 ########################################## OLAHRAGA ################################################
