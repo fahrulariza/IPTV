@@ -222,7 +222,7 @@ http://210.210.155.35/uq2663/h/h08/01.m3u8?fluxustv.m3u8
 #EXTVLCOPT:file-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_channelId=99991302
 
-#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="Wilder Planet" tvg-logo="https://img.netzwelt.de/dw1600_dh900_sw0_sh0_sx0_sy0_sr16x9_nu2/picture/original/2023/08/wilder-planet-379437.png", Wilder Planet
+#EXTINF:60 tvg-country="ENG" group-title="LOKAL" tvg-name="Wilder Planet" tvg-logo="https://img.netzwelt.de/dw1600_dh900_sw0_sh0_sx0_sy0_sr16x9_nu2/picture/original/2023/08/wilder-planet-379437.png", Wilder Planet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
@@ -263,17 +263,38 @@ https://jmp2.uk/SamsungTVPlus/CA400003FQ.m3u8
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h238/02.m3u8
 
-#EXTINF:25, PFL MMA
+#EXTINF:25 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="PFL MMA" tvg-logo="https://mmatv-static-mvs-wtf.akamaized.net/uploads/image/6447fd19dc62f154941a9849/x512.png",PFL MMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-
-#EXTINF:59,Nimbus Playout
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="Nimbus Playout" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/WWE_Network_logo.svg",Nimbus Playout
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="UFC Live" tvg-logo="https://www.mmaweekly.com/.image/t_share/MTk4NTIzNjA4Mjk4NDk3NDc1/ufc-logo.png",UFC Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951134
 
 #EXTINF:25,Bein Sports Xtra
 #EXTVLCOPT:network-caching=1000
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
+
+#EXTINF:36,Billiards TV (EU)
+https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:60,TENNIS HD
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
+
+#EXTINF:54, FIFA+
+https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
 #EXTINF:0,DUBAI RACING 2 (1920×1080)
 http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/playlist.m3u8?checkedby:iptvcat.net
@@ -292,8 +313,6 @@ https://bit.ly/3GCBoqY
 #EXTINF:25,Bellator MMA
 https://bit.ly/3O4uBZV
 
-#EXTINF:54, FIFA+
-https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
 #EXTINF:60,WPT World Poker Tour
 #EXTVLCOPT:network-caching=1000
@@ -331,9 +350,7 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_c
 #EXTINF:59,ESR
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991356
-#EXTINF:60,UFC
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951134
+
 #EXTINF:60,Swerve Combat
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
@@ -344,13 +361,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 #EXTVLCOPT:network-caching=1000
 https://d2irko5f9gt1c5.cloudfront.net/10008/99951154/hls/BOXINGTV_SCTE.m3u8?ads.xumo_channelId=99951154
 
-#EXTINF:36,Billiards TV (EU)
-https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
-
-#EXTINF:60,TENNIS HD
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:file-caching=1000
-https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 #EXTINF:120, Premier Sports (F*)
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
