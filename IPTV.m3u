@@ -1,16 +1,15 @@
 #EXTM3U
-TV SAYA
 
-#EXTINF:-1 tvg-country="BERITA" tvg-logo="" group-title="news" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
+#EXTINF:-1 tvg-country="ID" tvg-name="CNBC Indonesia" group-title="BERITA" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
 
-#EXTINF:-1 group-title="BERITA",BACKUP CNBC Indonesia
+#EXTINF:-1  tvg-country="ID" tvg-name="BACKUP CNBC Indonesia" group-title="BERITA",BACKUP CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 
-#EXTINF:-1 group-title="BERITA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1200px-CNN_International_logo.svg.png",CNN INDONESIA
+#EXTINF:-1 group-title="ID"  tvg-name="CNN INDONESIA" group-title="BERITA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1200px-CNN_International_logo.svg.png",CNN INDONESIA
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
 
-#EXTINF:-1 tvg-country="BERITA" group-title="lokal" tvg-logo="https://cc.dinus.ac.id/assets/uploads/penyedia/08095-tvkusmg.png",TVKU
+#EXTINF:-1 tvg-country="ID" tvg-name="TVKU" group-title="BERITA" tvg-logo="https://cc.dinus.ac.id/assets/uploads/penyedia/08095-tvkusmg.png",TVKU
 http://103.30.1.14:8080/hls/live.m3u8
 
 
