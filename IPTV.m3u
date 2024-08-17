@@ -13,12 +13,18 @@ http://103.30.1.14:8080/hls/live.m3u8
 
 
 #EXTM3U
-#EXTINF:1,tvg-country="ID" tvg-logo="" group-title="news" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
+#EXTINF:1,tvg-country="ID" tvg-logo="" group-title="BERITA" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
 
-#EXTINF:36,CNN INDONESIA
+#EXTINF:2, group-title="news;BERITA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/1200px-CNN_International_logo.svg.png",CNN INDONESIA
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
 
+#EXTINF:24,BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?checkedby:iptvcat.net
+#EXTINF:24,BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_320x240.m3u8?checkedby:iptvcat.net
+#EXTINF:24,BeritaSatu
+https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8?checkedby:iptvcat.net
 
 #EXTINF:36,TVKU
 http://103.30.1.14:8080/hls/live.m3u8
@@ -36,20 +42,10 @@ https://ammedia.siar.us/ammedia/live/playlist.m3u8?checkedby:iptvcat.net
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8?checkedby:iptvcat.net
 #EXTINF:50,Bandung TV
 http://202.150.153.254:65500/bandungtvWEBSITE.m3u8?checkedby:iptvcat.net
-#EXTINF:24,BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?checkedby:iptvcat.net
-#EXTINF:24,BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_320x240.m3u8?checkedby:iptvcat.net
-#EXTINF:24,BeritaSatu
-https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8?checkedby:iptvcat.net
+
 #EXTINF:29,Bungo TV (480p) [Not 24/7]
 https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:26,CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8?checkedby:iptvcat.net
-#EXTINF:27,CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8?checkedby:iptvcat.net
-#EXTINF:26,CNBC Indonesia 1
-http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8?checkedby:iptvcat.net
+
 #EXTINF:99,Dhamma TV (720p) [Not 24/7]
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8?checkedby:iptvcat.net
 #EXTINF:10,Dhoho TV (720p)
