@@ -96,6 +96,12 @@ https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
 #EXTVLCOPT:file-caching=1000
 https://jmp2.uk/SamsungTVPlus/ATBA1000004XC.m3u8
 
+#EXTINF:100 tvg-country="ENG" group-title="BERITA" tvg-name="NASA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/NASA_TV.svg",NASA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+
 ############################################ LOKAL ################################################
 
 #EXTINF:1 tvg-country="ID" group-title="LOKAL" tvg-name="NET TV" tvg-logo="https://img.jakpost.net/c/2019/08/10/2019_08_10_77845_1565422345._large.jpg",NET TV
@@ -177,62 +183,42 @@ https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b2196000_sleng.m3u8
 #EXTVLCOPT:file-caching=1000
 https://e.siar.us/live/aktv.m3u8?checkedby:iptvcat.net
 
-#EXTINF:60,DigiOne (720p)
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="DigiOne" tvg-logo="https://digione.cz/files/digioneLogo.png",DigiOne
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(d2f582be-366c-4cce-9476-1b524dc854e9)/index.m3u8?checkedby:iptvcat.net
 
-#EXTINF:60,Dunia Games TV (720p) [Not 24/7] [Geo-blocked]
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="Dunia Games TV [Not 24/7] [Geo-blocked]" tvg-logo="https://api.duniagames.co.id/api/tournament//upload/image/19188528451711514647.jpg",Dunia Games TV [Not 24/7] [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://cdn01-telkomsel-01.akamaized.net/Content/HLS/Live/channel(6854467f-52fe-48ee-9822-00233c678709)/index.m3u8?checkedby:iptvcat.net
 
-#EXTINF:15,ELSHINTA
+#EXTINF:15 tvg-country="ID" group-title="LOKAL" tvg-name="ELSHINTA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Elshinta_tv_logo.png/640px-Elshinta_tv_logo.png",ELSHINTA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
 
-#EXTINF:60,MAGNA CHANEL
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="MAGNA CHANEL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/MagnaChannel.png",MAGNA CHANEL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
-
-#EXTINF:0,JAKTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://op-group1-swiftservehd-1.dens.tv/h/h200/S4/mnf.m3u8
-
-#EXTINF:0,SEA Today (V+)
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://nyanv-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
-#EXTINF:30,Liputan 6
-https://livestream.zazerconer.workers.dev/channel/UC1QpnGo11epfexw1bIiTHTg.m3u8
-#EXTINF:30,METRO GLOBE NETWORK
-https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
-#EXTINF:29,Magna Channel
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:0,TVRI Nasional (V+)
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://nyanv-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
-#EXTINF:0,Jak TV (V+)
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://nyanv-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd
-#EXTINF:11,Jawa Pos TV
-https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
-#EXTINF:24,Berita Satu News World
-https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
-#EXTINF:0,Berita Satu News English
-https://b1english.beritasatumedia.com/Beritasatu/B1English_manifest.m3u8
-#EXTINF:0,SindoNews (V+)
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
-#EXTINF:0,IDX Channel (V+)
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://nyanv-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
-
-#EXTINF:54,Hi-Yah!
 #EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_channelId=99991302
+#EXTVLCOPT:file-caching=1000
+https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
+https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 
-#EXTINF:60,K+
+#EXTINF:60 tvg-country="ID" group-title="LOKAL" tvg-name="K+ Asian Entertaiment" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/8c/K_Plus_Asia_Logo.jpg",K+ Asian Entertaiment
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://210.210.155.35/uq2663/h/h08/01.m3u8?fluxustv.m3u8
-#EXTINF:100,NASA TV 
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 
-
+#EXTINF:54 tvg-country="ID" group-title="LOKAL" tvg-name="Hi-Yah! EnterTaiment [EN]" tvg-logo="https://image.roku.com/developer_channels/prod/9b8b7b606e2c3f89ec981a084f3b8ad269418d4148422089d632024eaf6f08af.png",Hi-Yah! EnterTaiment [EN]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_channelId=99991302
 
 ########################################## kartun anak ################################################
 
