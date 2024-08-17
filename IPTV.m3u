@@ -40,6 +40,12 @@ https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?checkedby:ipt
 https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8?checkedby:iptvcat.net
 https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8
 
+#EXTINF:24 tvg-country="ID" group-title="BERITA" tvg-name="ID TV" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/340%20x%20160%20IDTV@3x.jpg",ID TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
+
 #EXTINF:70 tvg-country="ID" group-title="BERITA" tvg-name="TVRI World" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6e/TVRI_World_Logo_2021_Variant.png/revision/latest?cb=20220222092300",TVRI World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
@@ -52,44 +58,41 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:
 #EXTVLCOPT:file-caching=1000
 https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:0,Kompas Tv
+#EXTINF:0 tvg-country="ID" group-title="BERITA" tvg-name="Kompas Tv" tvg-logo="https://w7.pngwing.com/pngs/310/692/png-transparent-kompas-tv-television-indonesia-news-kompas-television-angle-text-thumbnail.png",Kompas Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h234/01.m3u8
-#EXTINF:0,Kompas TV
 https://anevia114.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd
 
-#EXTINF:10,Jawa Pos TV (720p) [Not 24/7]
-https://jawapostv.siar.us/jawapostv/live/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0,JAWA POS TV
+#EXTINF:46 tvg-country="ID" group-title="BERITA" tvg-name="BBC News Asia Pacific" tvg-logo="https://pbs.twimg.com/profile_images/1283856018099798022/5ectikba_400x400.jpg",BBC News Asia Pacific
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-https://v2.siar.us/jawapostv/live/chunks.m3u8
-
-#EXTINF:46,BBC News Asia Pacific (720p)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8?checkedby:iptvcat.net
 
-#EXTINF:10,Dhoho TV (720p)
+#EXTINF:10 tvg-country="ID" group-title="BERITA" tvg-name="Dhoho TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/8/86/DhohoTV.png",Dhoho TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.net
 
 #EXTINF:0,TVRI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h237/02.m3u8
-#EXTINF:0,TVRI Nasional
 https://av-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
 
-#EXTINF:0,Berita Satu News
-https://av-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.mpd
 #EXTINF:0,MNC News
 https://av-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mpd
 #EXTINF:0,IDX Channel
 https://av-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
 #EXTINF:0,SEA Today
 https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
-#EXTINF:0,BERITA SATU
-http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/chunklist_b1128000.m3u8
-#EXTINF:24,BERITA SATU WORLD
-https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 
-#EXTINF:60, Euronews Live
+#EXTINF:60 tvg-country="ID" group-title="BERITA" tvg-name="Euronews Live" tvg-logo="https://play-lh.googleusercontent.com/SQqmj5mqaxc7BLMd7bfY4Oj1rCRzIV2x4R1Dhx9e_0UMzF4CtDYjhLPBTRw7_-3Zd8I=w600-h300-pc0xffffff-pd",Euronews Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://jmp2.uk/SamsungTVPlus/ATBA1000004XC.m3u8
 
 ############################################ LOKAL ################################################
@@ -406,6 +409,12 @@ http://op-group1-swiftservesd-1.dens.tv/s/s27/02.m3u8
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8?checkedby:iptvcat.net
 
 ########################################## DAERAH ################################################
+
+#EXTINF:10,Jawa Pos TV (720p) [Not 24/7]
+https://jawapostv.siar.us/jawapostv/live/playlist.m3u8?checkedby:iptvcat.net
+#EXTINF:0,JAWA POS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://v2.siar.us/jawapostv/live/chunks.m3u8
 #EXTINF:0,Pal TV (720p) [Not 24/7]
 http://122.248.43.138:1935/ch7/myStream/playlist.m3u8
 #EXTINF:0,Balikpapan TV (720p) [Not 24/7]
