@@ -37,16 +37,18 @@ https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8?check
 http://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
 
 #EXTINF:29 tvg-country="ID" group-title="LOKAL" tvg-name="TRANSTV" tvg-logo="https://i.pinimg.com/originals/bf/8f/3c/bf8f3cd07a56f716d5a550e27228ce05.webp",TRANSTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 network-caching=1000
+https://video.detik.com/transtv/smil:transtv.smil/chunklist_w988572694_b744100_sleng.m3u8
+https://video.detik.com/transtv/smil:transtv.smil/index.m3u8?checkedby:iptvcat.net
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
-#EXTINF:26,TRANS7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+#EXTINF:26 tvg-country="ID" group-title="LOKAL" tvg-name="TRANS7" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0021/6937/brand.gif?itok=PM5FNh9N",TRANS7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 network-caching=1000
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w44437729_b744100_sleng.m3u8
+https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 
-#EXTINF:60, KBS World HD
-#EXTVLCOPT:network-caching=1000
-https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 #EXTINF:0,INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
@@ -56,11 +58,20 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 #EXTINF:0,ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+
+#EXTINF:60 tvg-country="KR" group-title="LOKAL" tvg-name="KBS World HD" tvg-logo="https://welcon.kocca.kr/emp/cmm/getImage.do?atchFileId=FILE_2cf3e938-4417-4c83-bd82-a0093446e6de&fileSn=0", KBS World HD
+#EXTVLCOPT:network-caching=1000
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+
+#EXTINF:70,TVRI World
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.net
+
+
 #EXTINF:60,RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h10/02.m3u8
 
-
+########################################## kartun anak ################################################
 
 #EXTINF:60 tvg-country="ID" group-title="KARTUN ANAK" tvg-name="Spacetoon" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png",Spacetoon
 https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
