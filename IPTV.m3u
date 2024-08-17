@@ -293,6 +293,12 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c1
 #EXTVLCOPT:file-caching=1000
 https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
 
+#EXTINF:36 tvg-country="EU" group-title="OLAHRAGA" tvg-name="Billiards TV 2" tvg-logo="https://pbs.twimg.com/media/E_gBzmRWYAQUmbR.png",Billiards TV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/BILLIARDTV_SCTE.m3u8?ads.xumo_channelId=99991627
+
 #EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="TENNIS Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Tennis_Channel.svg/revision/latest/scale-to-width-down/165?cb=20221201170437",TENNIS Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
@@ -305,72 +311,90 @@ https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 #EXTVLCOPT:file-caching=1000
 https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
-#EXTINF:0,DUBAI RACING 2 (1920×1080)
-http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:0,DUBAI RACING 3 (1920×1080)
-http://dmithrvll.cdn.mangomolo.com/dubaimubasher/smil:dubaimubasher.smil/playlist.m3u8?checkedby:iptvcat.net
-#EXTINF:61,DUBAI SPORTS 2 (1920×1080) - SPORT : Dubai Sports 2,SPORT | Dubai Sports 2
+#EXTINF:61 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="DUBAI SPORTS 2" tvg-logo="https://w7.pngwing.com/pngs/459/811/png-transparent-dubai-sports-dubai-tv-television-dubai-television-text-sport-thumbnail.png",DUBAI SPORTS 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8?checkedby:iptvcat.net
-#EXTINF:60,DUBAI SPORTS 3 (1920×1080)
+
+#EXTINF:61 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="DUBAI SPORTS 3" tvg-logo="https://w7.pngwing.com/pngs/459/811/png-transparent-dubai-sports-dubai-tv-television-dubai-television-text-sport-thumbnail.png",DUBAI SPORTS 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8?checkedby:iptvcat.net
 
+#EXTINF:0 tvg-country="ENG" group-title="OLAHRAGA",DUBAI RACING 2 (1920×1080)
+http://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/playlist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:25,Bein Sports Xtra
-https://bit.ly/3t7HM45
-#EXTINF:25,Glory Kickboxing
-https://bit.ly/3GCBoqY
-#EXTINF:25,Bellator MMA
-https://bit.ly/3O4uBZV
+#EXTINF:0 tvg-country="ENG" group-title="OLAHRAGA",DUBAI RACING 3 (1920×1080)
+http://dmithrvll.cdn.mangomolo.com/dubaimubasher/smil:dubaimubasher.smil/playlist.m3u8?checkedby:iptvcat.net
 
-
-#EXTINF:60,WPT World Poker Tour
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_channelId=99991317
-#EXTINF:59,Waypoint TV
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991358
-#EXTINF:60,Billiard TV
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/BILLIARDTV_SCTE.m3u8?ads.xumo_channelId=99991627
-#EXTINF:60,PGA Tour
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991281
-#EXTINF:59,Nitro Circus
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991294
-#EXTINF:59,USGA TV
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991389
-#EXTINF:60,Fan Duel TV Extra
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/10001/99951266/hls/playlist.m3u8?ads.xumo_channelId=99951266
-#EXTINF:60,ACL Cornhole TV
-#EXTVLCOPT:network-caching=1000
-https://dbrb49pjoymg4.cloudfront.net/10001/99991697/hls/CORNHOLETV_SCTE.m3u8?ads.xumo_channelId=99991697
-#EXTINF:60,Outside
-#EXTVLCOPT:network-caching=1000
-https://outsidetvplus-xumo.amagi.tv/hls/amagi_hls_data_outsidetv-outsidetvplusxumo/CDN/master.m3u8
-#EXTINF:63,World Surf League
+#EXTINF:63 tvg-country="ENG" group-title="OLAHRAGA",World Surf League
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991249
-#EXTINF:59,ACCDN
+
+#EXTINF:25 tvg-country="ENG" group-title="OLAHRAGA",Bein Sports Xtra
+https://bit.ly/3t7HM45
+
+#EXTINF:25 tvg-country="ENG" group-title="OLAHRAGA",Glory Kickboxing
+https://bit.ly/3GCBoqY
+
+#EXTINF:25 tvg-country="ENG" group-title="OLAHRAGA",Bellator MMA
+https://bit.ly/3O4uBZV
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",WPT World Poker Tour
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_channelId=99991317
+
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA",Waypoint TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991358
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",PGA Tour
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991281
+
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA",Nitro Circus
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991294
+
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA",USGA TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991389
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",Fan Duel TV Extra
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99951266/hls/playlist.m3u8?ads.xumo_channelId=99951266
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",ACL Cornhole TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991697/hls/CORNHOLETV_SCTE.m3u8?ads.xumo_channelId=99991697
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",Outside
+#EXTVLCOPT:network-caching=1000
+https://outsidetvplus-xumo.amagi.tv/hls/amagi_hls_data_outsidetv-outsidetvplusxumo/CDN/master.m3u8
+
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA",ACCDN
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
-#EXTINF:59,ESR
+
+#EXTINF:59 tvg-country="ENG" group-title="OLAHRAGA",ESR
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991356
 
-#EXTINF:60,Swerve Combat
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",Swerve Combat
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
-#EXTINF:60,Fight Network
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",Fight Network
 #EXTVLCOPT:network-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
-#EXTINF:60,Boxing TV
+
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA",Boxing TV
 #EXTVLCOPT:network-caching=1000
 https://d2irko5f9gt1c5.cloudfront.net/10008/99951154/hls/BOXINGTV_SCTE.m3u8?ads.xumo_channelId=99951154
 
-#EXTINF:120, Premier Sports (F*)
+#EXTINF:120 tvg-country="ENG" group-title="OLAHRAGA", Premier Sports (F*)
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/premiersport.m3u8
