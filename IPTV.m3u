@@ -281,19 +281,28 @@ https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 #EXTVLCOPT:file-caching=1000
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951134
 
-#EXTINF:25,Bein Sports Xtra
+#EXTINF:25 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="Bein Sports Xtra" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png/revision/latest/scale-to-width-down/250?cb=20201108180658",Bein Sports Xtra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c102livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
 
-#EXTINF:36,Billiards TV (EU)
+#EXTINF:36 tvg-country="EU" group-title="OLAHRAGA" tvg-name="Billiards TV" tvg-logo="https://pbs.twimg.com/media/E_gBzmRWYAQUmbR.png",Billiards TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
 
-#EXTINF:60,TENNIS HD
+#EXTINF:60 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="TENNIS Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Tennis_Channel.svg/revision/latest/scale-to-width-down/165?cb=20221201170437",TENNIS Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:network-caching=1000
 #EXTVLCOPT:file-caching=1000
 https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 
-#EXTINF:54, FIFA+
+#EXTINF:54 tvg-country="ENG" group-title="OLAHRAGA" tvg-name="FIFA+" tvg-logo="https://media.kompas.tv/library/image/content_article/article_img/20220412152706.jpg",FIFA+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
 https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
 #EXTINF:0,DUBAI RACING 2 (1920×1080)
