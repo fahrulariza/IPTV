@@ -401,30 +401,40 @@ https://raw.githubusercontent.com/mimipipi22/lalajo/main/premiersport.m3u8
 
 ########################################## MUSIK ################################################
 
-#EXTINF:29,Radio 51 TV
+#EXTINF:29 tvg-country="ENG" group-title="MUSIK",Radio 51 TV
 http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8
-#EXTINF:0,Radio 51 TV
+
+#EXTINF:0 tvg-country="ENG" group-title="MUSIK",Radio 51 TV
 http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?checkedby:iptvcat.net
 
-#EXTINF:25, MTV (Pluto TV)
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", MTV (Pluto TV)
 http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
-#EXTINF:0, MTV Love Music (Pluto TV)
+
+#EXTINF:0 tvg-country="ENG" group-title="MUSIK", MTV Love Music (Pluto TV)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/600ae79fa46e17000794e84c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:25, Vevo '70s (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", Vevo '70s (Pluto TV)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f32f26bcd8aea00071240e5/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:25, Vevo '80s (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", Vevo '80s (Pluto TV)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fd7b8bf927e090007685853/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=c7e4860b-77f8-11ec-8df7-e1b1a799e6b3&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=8927ee53-9a67-4b77-b657-50ff6b872c44&userId=&serverSideAds=true
-#EXTINF:25, Vevo '90s (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", Vevo '90s (Pluto TV)
 https://bit.ly/3GS5WFz
-#EXTINF:25, Vevo 2K (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", Vevo 2K (Pluto TV)
 https://bit.ly/3NkcUoQ
-#EXTINF:25,Vevo Retro Rock (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK",Vevo Retro Rock (Pluto TV)
 https://bit.ly/3GFqbpv
-#EXTINF:25, VH1 Classic (Pluto TV)
+
+#EXTINF:25 tvg-country="ENG" group-title="MUSIK", VH1 Classic (Pluto TV)
 https://bit.ly/3PTpq0A
-#EXTINF:30, The Retro Channel
+
+#EXTINF:30 tvg-country="ENG" group-title="MUSIK", The Retro Channel
 https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
-#EXTINF:36,NEW KPOP (EU)
+
+#EXTINF:36 tvg-country="ENG" group-title="MUSIK",NEW KPOP (EU)
 https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 
 ########################################## ROHANI ################################################
