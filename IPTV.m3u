@@ -128,6 +128,10 @@ http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 #EXTINF:60 tvg-country="KR" group-title="LOKAL" tvg-name="KBS World HD" tvg-logo="https://welcon.kocca.kr/emp/cmm/getImage.do?atchFileId=FILE_2cf3e938-4417-4c83-bd82-a0093446e6de&fileSn=0", KBS World HD
 #EXTVLCOPT:network-caching=1000
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
+#EXTINF:60, KBS World HD
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 
 #EXTINF:28,Celestial Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -194,6 +198,16 @@ https://nyanv-live-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash_vmx/MNCnews-HDD.mp
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://nyanv-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
 
+#EXTINF:54,Hi-Yah!
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991302/hls/playlist.m3u8?ads.xumo_channelId=99991302
+
+#EXTINF:60,K+
+http://210.210.155.35/uq2663/h/h08/01.m3u8?fluxustv.m3u8
+#EXTINF:100,NASA TV 
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+
+
 
 ########################################## kartun anak ################################################
 
@@ -252,6 +266,67 @@ https://jmp2.uk/SamsungTVPlus/ATBA3300031VR.m3u8
 #EXTINF:54, FIFA+
 https://jmp2.uk/SamsungTVPlus/ATBA3300007PT.m3u8
 
+#EXTINF:60,WPT World Poker Tour
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_channelId=99991317
+#EXTINF:59,Waypoint TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991358
+#EXTINF:60,Billiard TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/BILLIARDTV_SCTE.m3u8?ads.xumo_channelId=99991627
+#EXTINF:60,PGA Tour
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991281
+#EXTINF:59,Nitro Circus
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991294
+#EXTINF:59,USGA TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991389
+#EXTINF:60,Fan Duel TV Extra
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99951266/hls/playlist.m3u8?ads.xumo_channelId=99951266
+#EXTINF:60,ACL Cornhole TV
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991697/hls/CORNHOLETV_SCTE.m3u8?ads.xumo_channelId=99991697
+#EXTINF:60,Outside
+#EXTVLCOPT:network-caching=1000
+https://outsidetvplus-xumo.amagi.tv/hls/amagi_hls_data_outsidetv-outsidetvplusxumo/CDN/master.m3u8
+#EXTINF:63,World Surf League
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991249
+#EXTINF:59,ACCDN
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
+#EXTINF:59,ESR
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991356
+#EXTINF:60,UFC
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951134
+#EXTINF:60,Swerve Combat
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
+#EXTINF:60,Fight Network
+#EXTVLCOPT:network-caching=1000
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
+#EXTINF:60,Boxing TV
+#EXTVLCOPT:network-caching=1000
+https://d2irko5f9gt1c5.cloudfront.net/10008/99951154/hls/BOXINGTV_SCTE.m3u8?ads.xumo_channelId=99951154
+
+#EXTINF:36,Billiards TV (EU)
+https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:60,TENNIS HD
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
+#EXTINF:120, Premier Sports (F*)
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:file-caching=1000
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/premiersport.m3u8
+
 ########################################## MUSIK ################################################
 
 #EXTINF:29,Radio 51 TV
@@ -277,6 +352,8 @@ https://bit.ly/3GFqbpv
 https://bit.ly/3PTpq0A
 #EXTINF:30, The Retro Channel
 https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
+#EXTINF:36,NEW KPOP (EU)
+https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 
 ########################################## ROHANI ################################################
 
@@ -384,6 +461,27 @@ http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKALSELBANJARMSN)/index.m3u8?c
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKALTENG)/index.m3u8?checkedby:iptvcat.net
 #EXTINF:120,TVRI Sumatera Barat (720p)
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8?checkedby:iptvcat.net
+#EXTINF:0,TVRI Kalimantan Timur (720p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIKALTIMSAMARINDA)/index.m3u8
+#EXTINF:0,TVRI Jambi (720p) [Not 24/7]
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIJAMBI)/index.m3u8
+#EXTINF:0,TVRI Maluku (480p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIMALUKUAMBON)/index.m3u8
+#EXTINF:0,TVRI Nusa Tenggara Barat (720p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINTBMATARAM)/index.m3u8
+#EXTINF:0,TVRI Yogyakarta (720p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIYOGYAKARTA)/index.m3u8
+#EXTINF:0,TVRI Bali (480p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIBALI)/index.m3u8
+#EXTINF:0,TVRI Kalimantan Selatan (720p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIKALSELBANJARMSN)/index.m3u8
+#EXTINF:0,TVRI Sumatera Barat (720p)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8
+#EXTINF:0,TVRI Jawa Barat
+http://118.97.50.107/Content/HLS/Live/Channel(TVRIJABARBANDUNG)/Stream(03)/index.m3u8?checkedby:iptvcat.net
+#EXTINF:0,TVRI Kanal 3
+http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI3)/Stream(03)/index.m3u8?checkedby:iptvcat.net
+
 
 #EXTINF:0,TVR Parlemen (720p) [Not 24/7]
 http://103.18.181.69:1935/golive/livestream/playlist.m3u8
