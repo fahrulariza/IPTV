@@ -102,9 +102,7 @@ http://op-group1-swiftservesd-1.dens.tv/s/s28/02.m3u8
 #EXTINF:60,Madinah  Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservesd-1.dens.tv/s/s27/02.m3u8
-#EXTINF:0,INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+
 #EXTINF:28,SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
@@ -446,9 +444,7 @@ https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8?check%20tvg-l
 #EXTINF:11,MOJI HD
 #EXTVLCOPT:network-caching=1000
 http://103.166.27.2:8112/play/a017/index.m3u8
-#EXTINF:11,INDOSIAR HD
-#EXTVLCOPT:network-caching=1000
-http://103.166.27.2:8112/play/a016/index.m3u8
+
 #EXTINF:76,USEE PRIME
 #EXTVLCOPT:network-caching=1000
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(18564c27-ff44-4d62-9fab-dcb417fcb93f)/manifest.mpd
@@ -480,8 +476,7 @@ https://anevia114.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd
 https://av-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
 #EXTINF:0,TVRI SPORT
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
-#EXTINF:0,NET
-https://av-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
+
 #EXTINF:0,@@@@@@@ TV LOKAL INDONESIA @@@@@@@
 file:///D:/Downloads/@@@@@@@%20TV%20LOKAL%20INDONESIA%20@@@@@@@
 #EXTINF:0,Da Ai TV Indonesia
