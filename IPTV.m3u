@@ -128,6 +128,19 @@ https://av-live-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd
 #EXTINF:200 tvg-country="ID" group-title="BERITA" tvg-name="SEA Today",SEA Today
 https://av-live-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd
 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="BERITA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BTV_%28Indonesia%29_logo.svg/244px-BTV_%28Indonesia%29_logo.svg.png", BTV 
+https://melon-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.mpd
+
+#EXTINF:-1 group-title="BERITA" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/3/3b/Logo_Jawapos_TV.png/150px-Logo_Jawapos_TV.png", Jawa Pos TV
+https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
+
+#EXTINF:-1 group-title="BERITA" tvg-logo="https://thumbor.prod.vidiocdn.com/ag3DlGE4zs35O8ozWQWV1XTunvA=/372x211/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/10975/tes-elshinta-tv-eb36eb.jpg", Elshinta TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
+
 ############################################ LOKAL ################################################
 
 #EXTINF:-1 group-title="🔴NASIONAL" tvg-logo="https://raw.githubusercontent.com/eepunx/logo/main/Moji.png", Moji
@@ -177,6 +190,12 @@ https://video.detik.com/transtv/smil:transtv.smil/index.m3u8?checkedby:iptvcat.n
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://github.com/Qingtvnew/test/raw/main/trans-tv%20(1).png", TransTV 2
+http://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+
 #EXTINF:3 tvg-country="ID" group-title="LOKAL" tvg-name="TRANS7" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0021/6937/brand.gif?itok=PM5FNh9N",TRANS7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:network-caching=1000
@@ -184,6 +203,12 @@ https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist_w44437729_b744100_sleng.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://github.com/Qingtvnew/test/raw/main/trans7%20(1).png", Trans7 2 
+http://melon-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
 #EXTINF:4,INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -310,6 +335,28 @@ https://jmp2.uk/SamsungTVPlus/ATBA3300031VR.m3u8
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="LOKAL" tvg-logo="https://raw.githubusercontent.com/eepunx/logo/main/daaitv-1.png", DaaiTV 
 http://melon-live-cdn.mncnow.id/live/eds/DAAITV/sa_dash_vmx/DAAITV.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://github.com/Qingtvnew/test/raw/main/TVRI.png", TVRI 
+http://melon-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://github.com/Qingtvnew/test/raw/main/jakTV.png", JakTV 
+http://melon-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="LOKAL" tvg-logo="https://github.com/Qingtvnew/test/raw/main/OKTV.png", OK TV 
+http://melon-live-cdn.mncnow.id/live/eds/OKTV/sa_dash_vmx/OKTV.mpd
+
+#EXTINF:-1 tvg-id="" group-title="LOKAL" tvg-url="https://bit.ly/JejeVisionEPG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_GarudaTV_Merah_Putih_Silver_Merah.png/1200px-Logo_GarudaTV_Merah_Putih_Silver_Merah.png",Garuda TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://etv-cdn.kdb.co.id/GarudaTV-Stream/index.m3u8
 
 ########################################## kartun anak ################################################
 
@@ -486,6 +533,12 @@ https://d2irko5f9gt1c5.cloudfront.net/10008/99951154/hls/BOXINGTV_SCTE.m3u8?ads.
 #EXTVLCOPT:file-caching=1000
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/premiersport.m3u8
 
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1599779147609317376/dFydJWdg_400x400.jpg" group-title="OLAHRAGA",BRI LIGA 1 LIVE 1
+http://103.237.32.213:9981/stream/channelid/1888111875?profile=pass
+
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1599779147609317376/dFydJWdg_400x400.jpg" group-title="OLAHRAGA",BRI LIGA 1 LIVE 2
+http://108.181.132.217:8070/AmirBilali/76448035/162138
+
 ########################################## MUSIK ################################################
 
 #EXTINF:1 tvg-country="ENG" group-title="MUSIK",Radio 51 TV
@@ -642,6 +695,30 @@ http://wowza58.indostreamserver.com:1935/afbtv/live/playlist.m3u8
 
 #EXTINF:24 tvg-country="ID" group-title="DAERAH",Agropolitan TV (360p) [Not 24/7]
 http://45.80.181.150:8080/hls/agropolitantv.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="DAERAH" tvg-logo="https://github.com/Qingtvnew/test/raw/main/jakTV.png", JakTV 
+http://melon-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="DAERAH" tvg-logo="https://github.com/Qingtvnew/test/raw/main/jtv.png", JTV 
+http://melon-live-cdn.mncnow.id/live/eds/JTV/sa_dash_vmx/JTV.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="DAERAH" tvg-logo="https://github.com/Qingtvnew/test/raw/main/BALI.png", Bali TV 
+https://melon-live-cdn.mncnow.id/live/eds/BaliTV/sa_dash_vmx/BaliTV.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 group-title="DAERAH" tvg-logo="https://github.com/Qingtvnew/test/raw/main/Bandung-TV.png", Bandung TV 
+http://melon-live-cdn.mncnow.id/live/eds/BandungTV/sa_dash_vmx/BandungTV.mpd
 
 ########################################## TVRI ################################################
 
