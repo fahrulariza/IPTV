@@ -625,6 +625,9 @@ http://103.237.32.213:9981/stream/channelid/1888111875?profile=pass
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1599779147609317376/dFydJWdg_400x400.jpg" group-title="OLAHRAGA",BRI LIGA 1 LIVE 2
 http://108.181.132.217:8070/AmirBilali/76448035/162138
 
+#EXTINF:-1 tvg-logo="" group-title="OLAHRAGA",ALLPLAY
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/playlist24
+
 ########################################## MUSIK ################################################
 
 #EXTINF:1 tvg-country="ENG" group-title="MUSIK",Radio 51 TV
